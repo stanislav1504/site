@@ -1,0 +1,58 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(29, 29, 29);
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.header {
+    background-color: #392c53;
+    padding-top: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 37px;
+    color: #FFF;
+}
+
+.nav {
+    font-size: 24px;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+.nav_link:hover {
+    color: #d8c4ff;
+}
