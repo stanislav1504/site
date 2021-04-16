@@ -39,11 +39,8 @@ h1, h2, h3 {
     color: #FFF;
 }
 
-.nav {
-    font-size: 24px;
-}
-
 .nav_link {
+    font-size: 24px;
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
@@ -55,4 +52,30 @@ h1, h2, h3 {
 
 .nav_link:hover {
     color: #d8c4ff;
+}
+
+.intro {
+    height: 80vh;
+    background: url(img/intro.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section {
+    padding: 80px 0;
+    background-color: #392c53;
+}
+
+.section_header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.section_subtitle {
+    font-size: 24px;
+    color: #FFF;
 }
