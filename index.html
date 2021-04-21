@@ -8,36 +8,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/icon.png" type="image/png">
-    <title>Фотостудия</title>
+    <title>[фотохата]</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header_inner">
-                <div class="header_logo">Фотостудия</div>
+                <div class="header_logo">[фотохата]</div>
                 <nav>
-                    <a href="#" class="nav_link">О нас</a>
-                    <a href="#" class="nav_link">Галерея</a>
-                    <a href="#" class="nav_link">Прайс-лист</a>
-                    <a href="#" class="nav_link">Контакты</a>
+                    <a href="#" class="nav_link">работы</a>
+                    <a href="#" class="nav_link">цены</a>
+                    <a href="#" class="nav_link">контакты</a>
                 </nav>
             </div>
         </div>
     </header>
 
     <div class="intro">
-        <div class="forma"></div>
+            <div class="intro_text">
+                Оперативное фотографирование недвижимости
+            </div>
     </div>
 
-    <section class="section">
+    <div class="section">
         <div class="container">
-            <section class="section_header">
+            <div class="section_header">
                 <h3 class="section_subtitle">
-                    О нас
+                    работы
                 </h3>
-            </section>
+            </div>
+                <div class="slider">
+                    <input type="radio" name="slide_switch" id="id1"/>
+                    <label for="id1">
+                        <img src="img/works/1.jpg" width="100"/>
+                    </label>
+                    <img src="img/works/1.jpg"/>
 
+                    <input type="radio" name="slide_switch" id="id2" checked="checked"/>
+                    <label for="id2">
+                        <img src="img/works/2.jpg" width="100"/>
+                    </label>
+                    <img src="img/works/2.jpg"/>
+                    
+                    <input type="radio" name="slide_switch" id="id3"/>
+                    <label for="id3">
+                        <img src="img/works/3.jpg" width="100"/>
+                    </label>
+                    <img src="img/works/3.jpg"/>
+                    
+                    <input type="radio" name="slide_switch" id="id4"/>
+                    <label for="id4">
+                        <img src="img/works/4.jpg" width="100"/>
+                    </label>
+                    <img src="img/works/4.jpg"/>   
+                </div>
         </div>
-    </section>
+    </div>
 </body>
 </html>
